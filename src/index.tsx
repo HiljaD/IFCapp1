@@ -6,7 +6,6 @@ import { initializeApp } from "firebase/app";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyC4gXrIWwjuh5q6x4KrwyyuTteQnUU16zQ",
@@ -17,6 +16,7 @@ const firebaseConfig = {
   appId: "1:642852850964:web:bcdc1b50458a50e2c8c601"
 };
 
+// Initialize Firebase
 // Initialize Firebase
 initializeApp(firebaseConfig);
 
